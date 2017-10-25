@@ -70,60 +70,50 @@
 				<section class="row">
 					<div class="col-sm-12">
 						<section class="row">
-							<div class="col-12 mt-1 mb-4">
-								<a href="nuevaNota.html"><button type="button" class="btn btn-sm btn-primary">Nueva nota</button></a>
-								<br>
-							</div>
+							<div class="card mb-4">
+								<div class="card-block">
+									<h3 class="card-title">Nueva nota</h3>
 
 
 
-							<div class="col-lg-3 mb-3">
-								<div class="card">
-									<div class="card-header">Examen Python</div>
+									<h6 class="card-subtitle mb-2 text-muted">Agregar</h6>
 
-									<div class="card-block">
-										<p>Estudiar para el examen de Python del jueves</p>
-										<a href="editarNota.html"><button type="button" class="btn btn-sm btn-primary">Editar</button></a>
-										<button type="button" class="btn btn-sm btn-primary">Eliminar</button>
-									</div>
+									<form class="form-horizontal" action="" method="post">
+										<fieldset>
+											<!-- Name input-->
+											<div class="form-group">
+												<label class="col-12 control-label no-padding" for="name">Título:</label>
+
+												<div class="col-12 no-padding">
+													<input id="name" name="name" type="text" placeholder="Título nota" class="form-control">
+												</div>
+											</div>
+
+
+
+											<!-- Message body -->
+											<div class="form-group">
+												<label class="col-12 control-label no-padding" for="message">Descripción:</label>
+
+												<div class="col-12 no-padding">
+													<textarea class="form-control" id="message" name="message" placeholder="Introduce aquí la descripción de la nota" rows="5"></textarea>
+												</div>
+											</div>
+
+											<!-- Form actions -->
+											<div class="form-group">
+												<div class="col-12 widget-right no-padding">
+													<a href="index.html"><button type="button" class="btn btn-sm btn-primary">Agregar</button></a>
+												</div>
+											</div>
+										</fieldset>
+									</form>
 								</div>
 							</div>
 
-							<div class="col-lg-3 mb-3">
-								<div class="card card-inverse card-success">
-									<div class="card-header">Examen Inglés</div>
 
-									<div class="card-block">
-										<p>Estudiar para el examen de Inglés del viernes</p>
-										<a href="editarNota.html"><button type="button" class="btn btn-sm btn-primary">Editar</button></a>
-										<button type="button" class="btn btn-sm btn-primary">Eliminar</button>
-									</div>
-								</div>
-							</div>
 
-							<div class="col-lg-3 mb-3">
-								<div class="card card-inverse card-info">
-									<div class="card-header">Hacer actividades EIE</div>
 
-									<div class="card-block">
-										<p>Terminar de realizar las tareas que me faltan de EIE</p>
-										<a href="editarNota.html"><button type="button" class="btn btn-sm btn-primary">Editar</button></a>
-										<button type="button" class="btn btn-sm btn-primary">Eliminar</button>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-3 mb-3">
-								<div class="card card-inverse card-warning">
-									<div class="card-header">Idea</div>
-
-									<div class="card-block">
-										<p>Pensar en una idea para ir preparando las actividades de EIE</p>
-										<a href="editarNota.html"><button type="button" class="btn btn-sm btn-primary">Editar</button></a>
-										<button type="button" class="btn btn-sm btn-primary">Eliminar</button>
-									</div>
-								</div>
-							</div>
 
 						</section>
 
